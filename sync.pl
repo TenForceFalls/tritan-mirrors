@@ -8,7 +8,6 @@ my $STORAGE_PATH = "/var/www";
 my %repos = (
     "ftp.us.debian.org/debian" => "$STORAGE_PATH/debian",
     "ftp.us.debian.org/ubuntu/" => "$STORAGE_PATH/ubuntu",
-    "ftp.us.debian.org/tails/" => "$STORAGE_PATH/tails",
 );
 
 foreach my $repo (keys %repos) {
