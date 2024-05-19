@@ -6,8 +6,8 @@ use warnings;
 my $STORAGE_PATH = "/var/www";
 
 my %repos = (
-    "debian.osuosl.orgdebian" => "$STORAGE_PATH/debian",
-    "ubuntu.osuosl.org/ubuntu/" => "$STORAGE_PATH/ubuntu",
+    "debian.osuosl.org/debian" => "$STORAGE_PATH/debian",
+    "ubuntu.osuosl.org/ubuntu" => "$STORAGE_PATH/ubuntu",
 );
 
 foreach my $repo (keys %repos) {
